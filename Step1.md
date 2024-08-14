@@ -1,6 +1,6 @@
 # Step-1
 
-In [Step-1](./Learning_FEM_1D_step1.ipynb),  we do two upgrades to Step-0:
+In [the Step-1 Jupyter Notebook](./Learning_FEM_1D_step1.ipynb),  we do two upgrades to Step-0:
 - the integrals for the reference-element matrices are computed using a numerical quadrature.
 - material properties will now be piece-wise constant.
 

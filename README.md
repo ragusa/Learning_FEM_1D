@@ -13,3 +13,12 @@ In [Step-0](Step0.md), I provide a basic introduction.
 In [Step-1](Step1.md), we introduce more advanced concepts:
 - the reference element
 - computing the local matrices using a numerical quadrature
+- material properties will now be piece-wise constant, that is, the regions of the geometry (where material properties live) and the spatial mesh are two distinct concepts.
+
+In [Step-2](Step2.md), we code a class for the MESH
+- we handle material property layout
+- mesh generation, including the use non-uniform meshes 
+
+
+In [Step-3](Step3.md), we introduce other boundary conditions and code a class for the Finite-Element Method
+

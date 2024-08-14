@@ -1,6 +1,6 @@
 # Step-0
 
-In [Step-0](./Learning_FEM_1D_step0.ipynb), I provide a basic introduction. 
+In [[the Step-0 Jupyter Notebook]](./Learning_FEM_1D_step0.ipynb), I provide a basic introduction. 
 
 We  solve the following diffusion + reaction equation, with a source term:
 
