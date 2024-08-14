@@ -1,6 +1,8 @@
 # Step-0
 
-**For equations to display correctly online, you may have to click the `Raw` button**.
+**For equations to display correctly online, you may have to click the `Raw` button.**
+
+**However, you need to exit `Raw` mode to display the Jupyter Notebook correctly.**
 
 In [[the Step-0 Jupyter Notebook]](./Learning_FEM_1D_step0.ipynb), I provide a basic introduction. 
 

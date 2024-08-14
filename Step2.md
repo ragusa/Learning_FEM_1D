@@ -2,6 +2,7 @@
 
 **For equations to display correctly online, you may have to click the `Raw` button**.
 
+**However, you need to exit `Raw` mode to display the Jupyter Notebook correctly.**
 
 In [the Step-2 Jupyter Notebook](./Learning_FEM_1D_step2.ipynb),  we develop a class for the MESH
 - we handle material property layout
