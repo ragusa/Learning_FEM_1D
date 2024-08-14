@@ -1,5 +1,8 @@
 # Step-2
 
+**For equations to display correctly online, you may have to click the `Raw` button**.
+
+
 In [the Step-2 Jupyter Notebook](./Learning_FEM_1D_step2.ipynb),  we develop a class for the MESH
 - we handle material property layout
 - mesh generation, including the use non-uniform meshes 

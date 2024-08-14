@@ -1,5 +1,7 @@
 # Step-2
 
+**For equations to display correctly online, you may have to click the `Raw` button**.
+
 In [the Step-3 Jupyter Notebook](./Learning_FEM_1D_step3.ipynb), we continue using **classes**.
 - we discuss additional boundary conditions (namely, Neumann BC and Robin BC in addition to the Dirichlet BC we have been using so far)
 - we code an FEM class

@@ -1,6 +1,6 @@
 # Step-0
 
-**For equation to display correctly online, click the `raw` button**
+**For equations to display correctly online, you may have to click the `Raw` button**.
 
 In [[the Step-0 Jupyter Notebook]](./Learning_FEM_1D_step0.ipynb), I provide a basic introduction. 
 
