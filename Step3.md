@@ -1,4 +1,4 @@
-# Step-2
+# Step-3
 
 **For equations to display correctly online, you may have to click the `Raw` button**.
 
