@@ -4,11 +4,11 @@
 
 **However, you need to exit `Raw` mode to display the Jupyter Notebook correctly.**
 
-In [[the Step-0 Jupyter Notebook]](./Learning_FEM_1D_step0.ipynb), I provide a basic introduction. 
+In [the Step-0 Jupyter Notebook](./Learning_FEM_1D_step0.ipynb), I provide a basic introduction.
 
 We  solve the following diffusion + reaction equation, with a source term:
 
-$$ -\frac{d}{dx}D\frac{du}{dx} + \sigma u = q \qquad \forall x \in [0,L]$$
+$$ -\frac{d}{dx}\left(D\frac{du}{dx}\right) + \sigma u = q \qquad \forall x \in [0,L]$$
 
 We will assume all material properties $D, \sigma,q$ to be constant for now.
 

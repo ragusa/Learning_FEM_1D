@@ -26,10 +26,13 @@ In this assignment, you will create a Python class called `MESH` that is designe
      - `n_ref`: A list of integers representing the number of spatial cells to divide each region into (refinement level).
      - `verbose`: A boolean flag (`True` or `False`) that controls the level of detail in the logging output. When `True`, the logger should output detailed debugging information.
    - **Input Validation**:
-     - Ensure that `mat_layout`, `src_layout`, `width`, and `n_ref` are all lists of the same length. If they are not, raise a `ValueError` with an appropriate error message.
+     - Ensure that `mat_layout`, `src_layout`, `width`, and `n_ref` have the same nonzero length. If they do not, raise a `ValueError` with an appropriate error message.
+     - Require every zone width to be positive.
+     - Require every entry of `n_ref` to be a positive integer.
    - **Attributes**:
      - `self.n_zones`: The number of regions (derived from the length of `width`).
      - `self.n_cells`: The total number of spatial cells (sum of `n_ref`).
+     - `self.x`: A NumPy array containing the node coordinates.
      - `self.dx`: A NumPy array containing the width of each spatial cell.
      - `self.J`: A NumPy array containing half of the width of each spatial cell.
      - `self.cell2mat`: A NumPy array mapping each cell ID to its corresponding material ID.
@@ -41,9 +44,9 @@ In this assignment, you will create a Python class called `MESH` that is designe
 
 3. **Connectivity Method (`connectivity` method)**:
    - Implement a method named `connectivity` within the `MESH` class.
-   - This method should create and assign a 2D NumPy array `self.gn` that maps each cell to its left and right neighbors.
-   - Each row in `self.gn` should contain two integers: the current cell index and the next cell index.
-   - Log the connectivity information for each cell using the logger.
+   - This method should create and assign a 2D NumPy array `self.gn` that maps each element to its left and right global node numbers.
+   - Each row in `self.gn` should contain the two global node indices belonging to that element.
+   - Inspect the connectivity when testing the class.
 
 4. **Additional Specifications**:
    - Ensure the class handles edge cases such as the first and last cells in the mesh correctly.
